@@ -1,0 +1,15 @@
+{
+  "name": "nstarmc-server-docs",
+  "version": "1.0.0",
+  "description": "nstarmc server docs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "xiaoyu",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
