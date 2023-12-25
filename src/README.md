@@ -1,8 +1,8 @@
 ---
 home: true
 icon: home
-title: 项目主页
-heroImage: /logo.svg
+title: NSTARMC群服务器帮助文档
+heroImage: /logo.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
