@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-135cec02\",\"path\":\"/Play/\",\"title\":\"加入服务器\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1703512540000,\"contributors\":[{\"name\":\"luluxiaoyu\",\"email\":\"ljy.xiaoyu@qq.com\",\"commits\":2}]},\"filePathRelative\":\"Play/README.md\"}")
