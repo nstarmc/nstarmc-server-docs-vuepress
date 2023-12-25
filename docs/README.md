@@ -1,18 +1,28 @@
 ```yaml
 ---
 home: true
+title: Home
 heroImage: /hero.png
-heroText: NSTARMC群服务器文档
-tagline: 一个简单的文档
-actionText: 立刻阅读 →
-actionLink: /play/
+actions:
+  - text: 游玩服务器！
+    link: /Play/
+    type: primary
+  - text: 介绍
+    link: /guide/introduction.html
+    type: secondary
 features:
-- title: 快速上手
-  details: 定制的MC客户端，一个客户端解决全部问题，傻瓜式操作。
-- title: 公益
-  details: 不搞商业，只允许赞助。
-- title: 一起玩~
-  details: 就是开着群里的人一起玩的而已啦！
-footer: MIT Licensed | Copyright © 2020-2024 NSTARMC
+  - title: Simplicity First
+    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  - title: Vue-Powered
+    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
+  - title: Performant
+    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: Themes
+    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
+  - title: Plugins
+    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
+  - title: Bundlers
+    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
 ```
