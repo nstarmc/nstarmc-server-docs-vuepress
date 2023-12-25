@@ -9,7 +9,7 @@ module.exports = {
         { text: 'NSTARMC', link: 'https://www.nstarmc.cn' },
       ],
       sidebar: [
-        "/",
+        ["/","文档首页"],
         {
           title: '加入服务器指南',   // 必要的
           path: '/Play/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
