@@ -10,8 +10,7 @@ bgImageStyle:
 heroText: NSTARMC群服务器帮助文档
 tagline: 一个简单的帮助文档啦！
 actions:
-  - text: 立刻游玩
-    icon: lightbulb
+  - text: <(￣︶￣)↗[GO!]
     link: ./demo/
     type: primary
 
@@ -22,7 +21,6 @@ highlights:
 
   - header: NSTARMC群服务器
     description: 只是为了大家一起玩的而已啦！
-    image: /assets/image/logo2.png
     bgImage: /assets/bg/1.png
     bgImageDark: /assets/bg/1.png
     highlights:
