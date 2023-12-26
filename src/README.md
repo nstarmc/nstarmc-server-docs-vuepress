@@ -4,7 +4,7 @@ icon: home
 title: NSTARMC群服务器帮助文档
 heroImage: /logo.png
 bgImage: /assets/bg/1.png
-bgImageDark: /assets/bg/1.png
+bgImageDark: /assets/bg/2.png
 bgImageStyle:
   background-attachment: fixed
 heroText: NSTARMC群服务器帮助文档
