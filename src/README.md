@@ -22,14 +22,13 @@ highlights:
 
   - header: 布局
     description: 一个带有完整无障碍支持的响应式布局。
-    image: /assets/image/layout.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    image: /assets/image/logo.png
+    bgImage: /assets/bg/3.png
+    bgImageDark: /assets/bg/3.png
     highlights:
-      - title: 布局增强
-        icon: object-group
-        details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-        link: https://theme-hope.vuejs.press/zh/guide/layout/
+      - title: 专用客户端
+        icon: carbon:app
+        details: 专用定制群服务器客户端，一键快速加入服务器！
 
       - title: 深色模式
         icon: circle-half-stroke
@@ -56,8 +55,3 @@ copyright: false
 footer: Copyright © <a href="https://mc.dnxshare.cn"><strong>NSTARMC</strong></a> 2020-2024 All Right Received.
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。
