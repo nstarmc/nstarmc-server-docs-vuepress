@@ -3,7 +3,10 @@ home: true
 icon: home
 title: NSTARMC群服务器帮助文档
 heroImage: /logo.png
-
+bgImage: /assets/bg/2.png
+bgImageDark: /assets/bg/2.png
+bgImageStyle:
+  background-attachment: fixed
 heroText: NSTARMC群服务器帮助文档
 tagline: 一个简单的帮助文档啦！
 actions:
@@ -20,8 +23,8 @@ highlights:
   - header: NSTARMC群服务器
     description: 只是为了大家一起玩的而已啦！
     image: /assets/image/logo2.png
-    bgImage: /assets/bg/4.jpg
-    bgImageDark: /assets/bg/4.jpg
+    bgImage: /assets/bg/1.png
+    bgImageDark: /assets/bg/1.png
     highlights:
       - title: 专用客户端
         details: 专用定制群服务器客户端，一键快速加入服务器！
