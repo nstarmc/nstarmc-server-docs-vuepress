@@ -21,6 +21,7 @@ highlights:
 
   - header: NSTARMC群服务器
     description: 只是为了大家一起玩的而已啦！
+    image: /assets/bg/3.png
     bgImage: /assets/bg/1-2.png
     bgImageDark: /assets/bg/2-2.png
     highlights:
