@@ -1,6 +1,5 @@
 ---
 home: true
-icon: home
 title: NSTARMC群服务器帮助文档
 heroImage: /logo.png
 bgImage: /assets/bg/1-1.png
@@ -11,11 +10,11 @@ heroText: NSTARMC群服务器帮助文档
 tagline: 一个简单的帮助文档啦！
 actions:
   - text: <(￣︶￣)↗[GO!]
-    link: ./demo/
+    link: ./play/
     type: primary
 
   - text: 简介
-    link: ./guide/
+    link: ./play/introduction.html
 
 highlights:
 
