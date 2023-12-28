@@ -3,18 +3,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://mc.nstarmc.cn",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "xiaoyu",
+    url: "https://www.nstarmc.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/image/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "nstarmc/nstarmc-server-docs-vuepress",
 
   docsDir: "src",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "NSTARMC",
 
   displayFooter: true,
 
@@ -43,10 +43,10 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "nstarmc/nstarmc-server-docs-vuepress",
+      repoId: "R_kgDOK9hUkg",
+      category: "General",
+      categoryId: "DIC_kwDOK9hUks4CcDZ4",
     },
 
     // All features are enabled for demo, only preserve features you need here
