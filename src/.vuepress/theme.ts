@@ -24,7 +24,9 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "NSTARMC",
+  footer: "Copyright © <a href=\"https://www.nstarmc.cn\"><strong>NSTARMC</strong></a> 2020-2024 All Right Received.",
+
+  copyright: false,
 
   displayFooter: true,
 
