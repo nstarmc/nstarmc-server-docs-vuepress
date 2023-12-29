@@ -1,13 +1,13 @@
 # 感谢赞助
 
 <div id="sp"></div>
-<script>function getZanzhu() {
+<script>
+​````
+function getZanzhu() {
   // 创建一个新的XMLHttpRequest对象
   const xhr = new XMLHttpRequest();
   // 设置请求的URL
-  xhr.open('GET', 'https://nsc6.nstarmc.cn/servers/zanzhu.txt');
-
-  // 设置请求的响应类型为文本
+  xhr.open('GET', 'https://nsc6.nstarmc.cn/servers/zanzhu.txt');  // 设置请求的响应类型为文本
   xhr.responseType = 'text';
 
   // 注册一个监听器，当请求完成时触发
@@ -27,4 +27,8 @@
 
 // 调用getZanzhu函数
 getZanzhu();
+​````
 </script>
+
+
+
