@@ -9,7 +9,6 @@ function getZanzhu() {
   // 设置请求的URL
   xhr.open('GET', 'https://nsc6.nstarmc.cn/servers/zanzhu.txt');  // 设置请求的响应类型为文本
   xhr.responseType = 'text';
-
   // 注册一个监听器，当请求完成时触发
   xhr.onload = function() {
     if (xhr.status === 200) {
