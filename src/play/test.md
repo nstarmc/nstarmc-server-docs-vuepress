@@ -1,6 +1,6 @@
 # 感谢赞助
 
-<div id="sp"></div>
+<div id="sp"/>
 <script>
 ​````
 function getZanzhu() {
