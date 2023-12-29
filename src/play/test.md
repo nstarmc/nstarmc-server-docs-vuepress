@@ -1,8 +1,7 @@
 # 感谢赞助
 
 <div id="sp"/>
-<script>
-​````
+```javascript
 function getZanzhu() {
   // 创建一个新的XMLHttpRequest对象
   const xhr = new XMLHttpRequest();
@@ -19,6 +18,7 @@ function getZanzhu() {
       console.error('请求失败:', xhr.status, xhr.statusText);
     }
   };
+```
 
   // 发送请求
   xhr.send();
@@ -26,8 +26,7 @@ function getZanzhu() {
 
 // 调用getZanzhu函数
 getZanzhu();
-​````
-</script>
+​```
 
 
 
