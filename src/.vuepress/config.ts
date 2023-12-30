@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: "Docs",
 
   theme,
-
+  
   // Enable it with pwa
   // shouldPrefetch: false,
 });
