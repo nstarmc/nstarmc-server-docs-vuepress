@@ -2,8 +2,8 @@
 home: true
 title: NSTARMC群服务器帮助文档
 heroImage: /logo.png
-bgImage: /assets/bg/1-1.png
-bgImageDark: /assets/bg/2-1.png
+bgImage: https://cdnjson.com/images/2024/01/17/1-1.png
+bgImageDark: https://cdnjson.com/images/2024/01/17/2-1.png
 bgImageStyle:
   background-attachment: fixed
 heroText: NSTARMC群服务器帮助文档
@@ -21,8 +21,8 @@ highlights:
   - header: NSTARMC群服务器
     description: 只是为了大家一起玩的而已啦！
     image: /assets/image/grass.png
-    bgImage: /assets/bg/1-2.png
-    bgImageDark: /assets/bg/2-2.png
+    bgImage: https://cdnjson.com/images/2024/01/17/1-2.png
+    bgImageDark: https://cdnjson.com/images/2024/01/17/2-2.png
     highlights:
       - title: 专用客户端
         details: 专用定制群服务器客户端，一键快速加入服务器！
