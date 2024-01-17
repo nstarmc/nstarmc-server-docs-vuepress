@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div v-for="card in cards" :key="card.title" class="card">
+      <div v-for="card in cards" :key="card.title">
         <h2>{{ card.title }}</h2>
         <hr/>
         <p>{{ card.content }}</p>
@@ -14,25 +14,21 @@
   export default {
     data() {
       return {
-        cards: [],
+        cards: []
       };
     },
     async created() {
       const response = await axios.get('https://nsc.xiaoyulu.cn/upd-records/nsc6.txt');
-      const rawCards = response.data.split('#$').slice(1);
-      this.cards = rawCards.map((rawCard) => {
-        const [title, content] = rawCard.split('*');
-        return { title, content };
+      const text = response.data;
+      const sections = text.split('#$').slice(1);
+      this.cards = sections.map(section => {
+        const [title, ...content] = section.split('*');
+        return {
+          title: title.trim(),
+          content: content.join('*').trim()
+        };
       });
-    },
+    }
   };
   </script>
-  
-  <style scoped>
-  .card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  </style>
   
