@@ -1,10 +1,9 @@
 <template>
-    <div class="timeline">
-      <div class="event" v-for="card in cards" :key="card.title">
-        <div class="content">
-          <h2 class="card-title">{{ card.title }}</h2>
-          <p class="card-content" v-html="card.content"></p>
-        </div>
+    <div>
+      <div class="card" v-for="card in cards" :key="card.title">
+        <h2 class="card-title">{{ card.title }}</h2>
+        <hr/>
+        <p class="card-content" v-html="card.content"></p>
       </div>
     </div>
   </template>
@@ -26,7 +25,7 @@
         const [title, ...content] = section.split('*');
         return {
           title: title.trim(),
-          content: content.join('*').replace(/\n/g, '<br/>').replace('*#', '').trim().replace(/^<br\/>|<br\/>$/g, '')
+          content: content.join('*').replace(/\n/g, '<br/>').replace('*#', '').trim().replace(/^<br\/>|<br\/>$/g, '').replace(/<br\/>$/g, '')
         };
       });
     }
@@ -34,54 +33,20 @@
   </script>
   
   <style scoped>
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
   }
   
-  .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #6c757d;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
   }
   
-  .event {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-  }
-  
-  .event::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #6c757d;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  
-  .event .content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .timeline .event {
-      width: 100%;
-    }
+  .card-content {
+    font-size: 16px;
   }
   </style>
   
