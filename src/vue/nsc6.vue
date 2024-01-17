@@ -1,9 +1,9 @@
 <template>
     <div>
-      <div v-for="card in cards" :key="card.title">
-        <h2>{{ card.title }}</h2>
+      <div class="card" v-for="card in cards" :key="card.title">
+        <h2 class="card-title">{{ card.title }}</h2>
         <hr/>
-        <p>{{ card.content }}</p>
+        <p class="card-content" v-html="card.content"></p>
       </div>
     </div>
   </template>
@@ -25,10 +25,28 @@
         const [title, ...content] = section.split('*');
         return {
           title: title.trim(),
-          content: content.join('*').trim()
+          content: content.join('*').replace(/\n/g, '<br/>').replace('*#', '').trim()
         };
       });
     }
   };
   </script>
+  
+  <style scoped>
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-content {
+    font-size: 16px;
+  }
+  </style>
   
