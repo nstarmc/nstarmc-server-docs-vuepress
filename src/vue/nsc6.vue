@@ -18,14 +18,14 @@
       };
     },
     async created() {
-      const response = await axios.get('https://nsc6.nstarmc.cn/upd-records/nsc6.txt');
+      const response = await axios.get('https://nsc.xiaoyulu.cn/upd-records/nsc6.txt');
       const text = response.data;
       const sections = text.split('#$').slice(1);
       this.cards = sections.map(section => {
         const [title, ...content] = section.split('*');
         return {
           title: title.trim(),
-          content: content.join('*').replace(/\n/g, '<br/>').replace('*#', '').trim()
+          content: content.join('*').replace(/\n/g, '<br/>').replace('*#', '').trim().replace(/^<br\/>|<br\/>$/g, '')
         };
       });
     }
