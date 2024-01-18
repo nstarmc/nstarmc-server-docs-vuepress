@@ -4,7 +4,7 @@ export default navbar([
   "/",
   "/play/",
   {
-    text: "NSTARMC",
+    text: "🌏NSTARMC",
     link: "https://www.nstarmc.cn",
   },
 ]);
