@@ -1,6 +1,6 @@
 ---
 home: true
-title: NSTARMC群服务器帮助文档
+title: 🏠NSTARMC群服务器帮助文档
 heroImage: /logo.png
 bgImage: https://cdnjson.com/images/2024/01/17/1-1.png
 bgImageDark: https://cdnjson.com/images/2024/01/17/2-1.png
