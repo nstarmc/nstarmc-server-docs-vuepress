@@ -15,5 +15,11 @@ export default sidebar({
       prefix: "qa/",
       children: "structure",
     },
+    {
+      text: "🌹存档纪念",
+      link: "archive/",
+      prefix: "archive/",
+      children: "structure",
+    },
   ],
 });
