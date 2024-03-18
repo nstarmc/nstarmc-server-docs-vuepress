@@ -10,16 +10,17 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "❓常见问题",
-      link: "qa/",
-      prefix: "qa/",
-      children: "structure",
-    },
-    {
       text: "🌹存档纪念",
       link: "archive/",
       prefix: "archive/",
       children: "structure",
     },
+    {
+      text: "❓常见问题",
+      link: "qa/",
+      prefix: "qa/",
+      children: "structure",
+    },
+
   ],
 });
