@@ -10,6 +10,12 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "📃部分更新日志",
+      prefix: "updatelogs/",
+      link: "updatelogs/",
+      children: "structure",
+    },
+    {
       text: "🌹存档纪念",
       link: "archive/",
       prefix: "archive/",
