@@ -41,6 +41,6 @@ highlights:
 
 
 copyright: false
-footer: Copyright © <a href="https://www.nstarmc.cn"><strong>NSTARMC</strong></a> 2020-2024 All Right Received.
+footer: Copyright © <a href="https://www.nstarmc.cn"><strong>NSTARMC</strong></a> 2020-2025 All Right Received.
 ---
 
